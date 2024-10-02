@@ -30,10 +30,19 @@
 
 //Array methods shift and unshift
 
+// var a = ["Nairobi", "Kitale", "Lodwar"]
+// document.write(a + "<br>")
+// a.shift()
+// document.write(a + "<br>")
+// a.unshift("Voi")
+// document.write(a + "<br>")
+
+//Concat and join
 var a = ["Nairobi", "Kitale", "Lodwar"]
-document.write(a + "<br>")
-a.shift()
-document.write(a + "<br>")
-a.unshift("Voi")
-document.write(a + "<br>")
+var b = [10, 20, 30]
+var c = a.concat(b)
+document.write(c + "<br>")
+var d = c.join(" /")
+document.write(d)
+
 

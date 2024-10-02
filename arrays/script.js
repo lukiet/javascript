@@ -46,10 +46,15 @@
 // document.write(d)
 
 //Slice and spice
-var a = ["Nairobi", "Kitale", "Lodwar"]
-document.write(a + "<br>")
-var b = a.slice(1)
-document.write(b + "<br>")
-a.splice(0, 1, "Yala", "Githu")
-document.write(a + "<br>")
+// var a = ["Nairobi", "Kitale", "Lodwar"]
+// document.write(a + "<br>")
+// var b = a.slice(1)
+// document.write(b + "<br>")
+// a.splice(0, 1, "Yala", "Githu")
+// document.write(a + "<br>")
 
+
+//isArray
+var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
+var b = Array.isArray(a)
+document.write(b)

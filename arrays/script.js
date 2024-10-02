@@ -61,8 +61,16 @@
 // document.write(c + "<br>")
 
 //forEach
-var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
-a.forEach(loop)
-function loop(value, index) {
-    document.write(index + " " + value + "<br> ")
-}
+// var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
+// a.forEach(loop)
+// function loop(value, index) {
+//     document.write(index + " " + value + "<br> ")
+// }
+
+//toString valueOf fill
+var a = [20, 30, 40, 50, 60]
+document.write(a + "<br>")
+b = a.toString()
+document.write(b + "<br>")
+c = a.fill("90")
+document.write(c + "<br>")

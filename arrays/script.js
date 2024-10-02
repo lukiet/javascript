@@ -21,9 +21,19 @@
 
 // Array methods pop & push
 
+// var a = ["Nairobi", "Kitale", "Lodwar"]
+// document.write(a + "<br>")
+// a.pop()
+// document.write(a + "<br>")
+// a.push("Mombasa", "Kisumu")
+// document.write(a + "<br>")
+
+//Array methods shift and unshift
+
 var a = ["Nairobi", "Kitale", "Lodwar"]
 document.write(a + "<br>")
-a.pop()
+a.shift()
 document.write(a + "<br>")
-a.push("Mombasa", "Kisumu")
+a.unshift("Voi")
 document.write(a + "<br>")
+

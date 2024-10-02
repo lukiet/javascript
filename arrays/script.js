@@ -82,10 +82,29 @@
 // document.write(b + "<br>")
 
 //some and every
+// var a = [20, 30, 40, 50, 60]
+// document.write(a + "<br>")
+// var b = a.some(checkvalue)
+// document.write(b + "<br>")
+// function checkvalue(age) {
+//     return age >= 18
+// }
+
+//find and findindex
 var a = [20, 30, 40, 50, 60]
 document.write(a + "<br>")
-var b = a.some(checkvalue)
+var b = a.find(checkvalue)
 document.write(b + "<br>")
+
 function checkvalue(age) {
-    return age >= 18
+    return age >= 28
+}
+
+var a = [20, 30, 40, 50, 60]
+document.write(a + "<br>")
+var b = a.findIndex(checkvalue)
+document.write(b + "<br>")
+
+function checkvalue(age) {
+    return age >= 28
 }

@@ -2,16 +2,12 @@
 
 // var a = ["Luke", 58, "Junior"];
 // document.write(a + "<br>")
-
 // a[0] = "Tsalwa"
 // document.write(a + "<br>")
-
 // delete a[1]
-
 // document.write(a + "<br>")
 
 // Array methods sort
-
 // var a = ["Nairobi", "Kitale", "Lodwar"]
 // document.write(a + "<br>")
 // a.sort()
@@ -20,7 +16,6 @@
 // document.write(a + "<br>")
 
 // Array methods pop & push
-
 // var a = ["Nairobi", "Kitale", "Lodwar"]
 // document.write(a + "<br>")
 // a.pop()
@@ -29,7 +24,6 @@
 // document.write(a + "<br>")
 
 //Array methods shift and unshift
-
 // var a = ["Nairobi", "Kitale", "Lodwar"]
 // document.write(a + "<br>")
 // a.shift()
@@ -55,6 +49,13 @@
 
 
 //isArray
+// var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
+// var b = Array.isArray(a)
+// document.write(b)
+
+//Indexof lastindex
 var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
-var b = Array.isArray(a)
-document.write(b)
+var b = a.indexOf("Voi")
+document.write(b + "<br>")
+var c = a.lastIndexOf("Voi")
+document.write(c + "<br>")

@@ -91,20 +91,30 @@
 // }
 
 //find and findindex
+// var a = [20, 30, 40, 50, 60]
+// document.write(a + "<br>")
+// var b = a.find(checkvalue)
+// document.write(b + "<br>")
+
+// function checkvalue(age) {
+//     return age >= 28
+// }
+
+// var a = [20, 30, 40, 50, 60]
+// document.write(a + "<br>")
+// var b = a.findIndex(checkvalue)
+// document.write(b + "<br>")
+
+// function checkvalue(age) {
+//     return age >= 28
+// }
+
+//filter
 var a = [20, 30, 40, 50, 60]
 document.write(a + "<br>")
-var b = a.find(checkvalue)
+var b = a.filter(checkvalue)
 document.write(b + "<br>")
 
 function checkvalue(age) {
-    return age >= 28
-}
-
-var a = [20, 30, 40, 50, 60]
-document.write(a + "<br>")
-var b = a.findIndex(checkvalue)
-document.write(b + "<br>")
-
-function checkvalue(age) {
-    return age >= 28
+    return age >= 48
 }

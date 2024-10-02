@@ -54,8 +54,15 @@
 // document.write(b)
 
 //Indexof lastindex
+// var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
+// var b = a.indexOf("Voi")
+// document.write(b + "<br>")
+// var c = a.lastIndexOf("Voi")
+// document.write(c + "<br>")
+
+//forEach
 var a = ["Nairobi", "Kitale", "Lodwar", "Voi"]
-var b = a.indexOf("Voi")
-document.write(b + "<br>")
-var c = a.lastIndexOf("Voi")
-document.write(c + "<br>")
+a.forEach(loop)
+function loop(value, index) {
+    document.write(index + " " + value + "<br> ")
+}

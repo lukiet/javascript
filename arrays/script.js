@@ -76,7 +76,16 @@
 // document.write(c + "<br>")
 
 //include methods
+// var a = [20, 30, 40, 50, 60]
+// document.write(a + "<br>")
+// var b = a.includes(30)
+// document.write(b + "<br>")
+
+//some and every
 var a = [20, 30, 40, 50, 60]
 document.write(a + "<br>")
-var b = a.includes(30)
+var b = a.some(checkvalue)
 document.write(b + "<br>")
+function checkvalue(age) {
+    return age >= 18
+}

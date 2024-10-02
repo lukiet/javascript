@@ -1,11 +1,20 @@
 // modifying and deleting arrays
 
-var a = ["Luke", 58, "Junior"];
+// var a = ["Luke", 58, "Junior"];
+// document.write(a + "<br>")
+
+// a[0] = "Tsalwa"
+// document.write(a + "<br>")
+
+// delete a[1]
+
+// document.write(a + "<br>")
+
+// Array methods sort
+
+var a = ["Nairobi", "Kitale", "Lodwar"]
 document.write(a + "<br>")
-
-a[0] = "Tsalwa"
+a.sort()
 document.write(a + "<br>")
-
-delete a[1]
-
+a.reverse()
 document.write(a + "<br>")

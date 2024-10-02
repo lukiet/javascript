@@ -68,9 +68,15 @@
 // }
 
 //toString valueOf fill
+// var a = [20, 30, 40, 50, 60]
+// document.write(a + "<br>")
+// b = a.toString()
+// document.write(b + "<br>")
+// c = a.fill("90")
+// document.write(c + "<br>")
+
+//include methods
 var a = [20, 30, 40, 50, 60]
 document.write(a + "<br>")
-b = a.toString()
+var b = a.includes(30)
 document.write(b + "<br>")
-c = a.fill("90")
-document.write(c + "<br>")

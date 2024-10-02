@@ -38,11 +38,18 @@
 // document.write(a + "<br>")
 
 //Concat and join
-var a = ["Nairobi", "Kitale", "Lodwar"]
-var b = [10, 20, 30]
-var c = a.concat(b)
-document.write(c + "<br>")
-var d = c.join(" /")
-document.write(d)
+// var a = ["Nairobi", "Kitale", "Lodwar"]
+// var b = [10, 20, 30]
+// var c = a.concat(b)
+// document.write(c + "<br>")
+// var d = c.join(" /")
+// document.write(d)
 
+//Slice and spice
+var a = ["Nairobi", "Kitale", "Lodwar"]
+document.write(a + "<br>")
+var b = a.slice(1)
+document.write(b + "<br>")
+a.splice(0, 1, "Yala", "Githu")
+document.write(a + "<br>")
 

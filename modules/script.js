@@ -121,10 +121,11 @@
 
 //Math Methods
 
-//Upper and lower
 // var a = Math.ceil(4.12);
 // console.log(a + "<br>")
 
-var a = Math.floor(4.12);
-console.log(a + "<br>")
+// var a = Math.floor(4.12);
+// console.log(a + "<br>")
 
+var a = Math.round(4.12);
+console.log(a + "<br>")

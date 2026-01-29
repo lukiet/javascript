@@ -110,11 +110,16 @@
 // }
 
 //filter
-var a = [20, 30, 40, 50, 60]
-document.write(a + "<br>")
-var b = a.filter(checkvalue)
-document.write(b + "<br>")
+// var a = [20, 30, 40, 50, 60]
+// document.write(a + "<br>")
+// var b = a.filter(checkvalue)
+// document.write(b + "<br>")
 
-function checkvalue(age) {
-    return age >= 48
-}
+// function checkvalue(age) {
+//     return age >= 48
+// }
+
+//Math Methods
+
+var a = Math.ceil(4.32);
+console.log(a + "<br>")

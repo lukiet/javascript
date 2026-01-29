@@ -147,3 +147,9 @@ console.log(a + "<br>")
 
 var a = Math.pow(4, 2);
 console.log(a + "<br>")
+
+var a = Math.round(Math.random()*100);
+console.log(a + "<br>")
+
+var a = Math.abs(4.12);
+console.log(a + "<br>")

@@ -139,17 +139,20 @@
 // var a = Math.min(4,7,10,87,2);
 // console.log(a + "<br>")
 
-var a = Math.sqrt(9);
-console.log(a + "<br>")
+// var a = Math.sqrt(9);
+// console.log(a + "<br>")
 
-var a = Math.cbrt(125);
-console.log(a + "<br>")
+// var a = Math.cbrt(125);
+// console.log(a + "<br>")
 
-var a = Math.pow(4, 2);
-console.log(a + "<br>")
+// var a = Math.pow(4, 2);
+// console.log(a + "<br>")
 
-var a = Math.round(Math.random()*100);
-console.log(a + "<br>")
+// var a = Math.round(Math.random()*100);
+// console.log(a + "<br>")
 
-var a = Math.abs(4.12);
+// var a = Math.abs(4.12);
+// console.log(a + "<br>")
+
+var a = Math.PI;
 console.log(a + "<br>")

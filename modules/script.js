@@ -127,5 +127,14 @@
 // var a = Math.floor(4.12);
 // console.log(a + "<br>")
 
-var a = Math.round(4.12);
+// var a = Math.round(4.12);
+// console.log(a + "<br>")
+
+var a = Math.trunc(4.12);
+console.log(a + "<br>")
+
+var a = Math.max(4,7,10,87,2);
+console.log(a + "<br>")
+
+var a = Math.min(4,7,10,87,2);
 console.log(a + "<br>")

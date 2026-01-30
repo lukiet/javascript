@@ -4,6 +4,8 @@ nav ul{
     list-style-type: none;
     gap: 20px;
     font-size: 1.4rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .home {

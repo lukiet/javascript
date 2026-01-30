@@ -3,5 +3,17 @@ nav ul{
     flex-direction: row;
     list-style-type: none;
     gap: 20px;
-    font-size: x-large;
+    font-size: 1.4rem;
+}
+
+.home {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+#main-content {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    font-size: 1.6rem;
 }
